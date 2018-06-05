@@ -16,9 +16,9 @@ You don't need any programming skills or deep knowledge about HTML and CSS, but 
 
 ## 1. Installation {#chap1}
 
-First of all you need to download the [story template](https://github.com/walterjohan/Nightswim-Story-Template). Put it somewhere on your hard drive and rename it with your project's title.
+First of all you need to download the [story template](https://github.com/MadRoutine/Nightswim-Story-Template). Put it somewhere on your hard drive and rename it with your project's title.
 
-Next you need a text editor (for editing the story's data files) and an app to preview your story. The [Nightswim Editor](https://github.com/walterjohan/Nightswim-Editor) is designed for both these purposes. Unfortunately, there are currently no installers available for various reasons (mostly because it's quite expensive to get certificates for creating signed distributables). If you feel comfortable compiling from source then [build instructions can be found here](link). If not, then alternatively you can do the following:
+Next you need a text editor (for editing the story's data files) and an app to preview your story. The [Nightswim Editor](https://github.com/MadRoutine/Nightswim-Editor) is designed for both these purposes. Unfortunately, there are currently no installers available for various reasons (mostly because it's quite expensive to get certificates for creating signed distributables). If you feel comfortable compiling from source then [build instructions can be found here](https://github.com/MadRoutine/Nightswim-Editor/blob/master/README.md). If not, then alternatively you can do the following:
 
 For editing: download and install any code editor of choice (for example [Atom](https://atom.io/) or [VS Code](https://code.visualstudio.com/)). The template/tools folder contains a template generator that will generate prebuild blocks of game-data and copies them to your clipboard, so you can paste them in your code editor.
 
@@ -53,11 +53,11 @@ game logic. They're pretty self-explanatory, but let's briefly talk about them:
 When you define one or more conditions then all of these conditions have to be met
 in order for something to happen in your story. Conditions can be applied to a
 variety of things. For example: a condition for lifting a heavy rock might be
-that the main character is not tired. [See the reference guide of different Condition-types.](link)
+that the main character is not tired. [See the reference guide of different Condition-types.](https://github.com/MadRoutine/Nightswim-Docs/blob/master/Reference%20Guide%20-%20Conditions.md)
 ### Consequences
 Consequences describe the changes that occur when conditions are met and an
 action is performed. You can define multiple consequences per action.
-[See the reference guide of different Consequence-types.](link)
+[See the reference guide of different Consequence-types.](https://github.com/MadRoutine/Nightswim-Docs/blob/master/Reference%20Guide%20-%20Consequences.md)
 
 ## 3. Adding Locations {#chap3}
 The easiest way to start your story is by adding locations in
@@ -83,7 +83,7 @@ shown. If *accessMsg* is set to anything other than *unlocked*, then the player
 will initially not be able to enter this location, until *accessMsg* is set to
 *unlocked* by a consequence.
 
-Let's leave some others alone for now (they are described in the [full documentation](link))
+Let's leave some others alone for now (they are described in the [full documentation](https://github.com/MadRoutine/Nightswim-Docs/blob/master/Reference%20Guide%20-%20Main%20Components.md))
 and focus on *content*. *content* will be filled with *sections*. Every section
 has a *sectionHTML* property, and this is where you'll write the stuff that
 will be displayed when a player enters the location. You can add multiple
@@ -102,7 +102,7 @@ the right side of the arrow. We can add our second location now and set its locI
 Important: location macro's are automatically detected and **removed** from sectionHTML, and added as
 buttons underneath your content. If you want a location link within your
 section, then you can hook up a *location-change consequence* to a section, and put the
-linked text between `({ round and curly brackets })`. More information about conditions and consequences in relation to locations can be found in the [reference guide](link).
+linked text between `({ round and curly brackets })`. More information about conditions and consequences in relation to locations can be found in the [reference guide](https://github.com/MadRoutine/Nightswim-Docs/blob/master/Reference%20Guide%20-%20Main%20Components.md).
 
 You can add another location by putting the text cursor after the closing
 bracket of the entire block surrounding our location, that looks like this: `}`.
