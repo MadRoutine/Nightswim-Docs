@@ -4,7 +4,8 @@ This short guide briefly explains the following subjects:
 - [HTML](#html)
 - [CSS](#css)
 
-## JSON {#json}
+<a id="json"></a>
+## JSON
 Game data is stored in JSON-files. You don't really need to know what that
 means, but you need to understand a few formatting basics for JSON.
 
@@ -12,9 +13,9 @@ A .json file can store either of two types of Javascript data: an array or an ob
 
 ```json
 [
-    data1,
-    data2,
-    data3
+    data,
+    data,
+    data
 ]
 ```
 
@@ -24,9 +25,9 @@ An object is similar, but there are keys (called *properties*) which are used to
 
 ```json
 {
-    "property1": data1,
-    "property2": data2,
-    "property3": data3
+    "property1": data,
+    "property2": data,
+    "property3": data
 }
 ```
 
@@ -69,7 +70,8 @@ The double quotes that follow the backslash will now be ignored. Of course, this
 
 To learn more about JSON check out [W3Schools.com](https://www.w3schools.com/js/js_json_intro.asp)
 
-## HTML {#html}
+<a id="html"></a>
+## HTML
 HTML is a language for formatting and displaying content. You don't apply formatting in a HTML document directly like you would in Word. Instead you mark certain portions of your content by putting so-called *tags* around them. Tags look like this:
 
 `This sentence is displayed normally. <em>This sentence is displayed with emphasis.</em>`
@@ -90,7 +92,8 @@ An id is unique and can only be used for one tag, while you can give multiple ta
 
 To learn more about HTML and HTML tags: [see W3Schools.com](https://www.w3schools.com/html/default.asp).
 
-## CSS {#css}
+<a id="css"></a>
+## CSS
 Where HTML is used to divide your content into sections by marking them with tags, the way things will actually look on screen is defined in CSS. CSS is usually found in seperate .css files. In your Story template you will see three CSS files: *location.css*, *menu.css* and *style.css*. CSS looks like this:
 
 ```
