@@ -12,7 +12,7 @@ This tutorial is made up of 10 parts, and it assumes no knowlegde of programming
 10. [More info](#chap10)
 
 ## What you need to know
-You don't need any programming skills or deep knowledge about HTML and CSS, but a few basics are required. I wrote a [super quick guide](link) that teaches you all you need to know about HTML, CSS and JSON in just a few minutes.
+You don't need any programming skills or deep knowledge about HTML and CSS, but a few basics are required. I wrote a [super quick guide](https://github.com/MadRoutine/Nightswim-Docs/blob/master/Super%20Quick%20Technical%20Guide.md) that teaches you all you need to know about HTML, CSS and JSON in just a few minutes.
 
 <a id="chap1"></a>
 ## 1. Installation
