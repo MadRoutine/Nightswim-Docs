@@ -14,7 +14,8 @@ This tutorial is made up of 10 parts, and it assumes no knowlegde of programming
 ## What you need to know
 You don't need any programming skills or deep knowledge about HTML and CSS, but a few basics are required. I wrote a [super quick guide](link) that teaches you all you need to know about HTML, CSS and JSON in just a few minutes.
 
-## 1. Installation {#chap1}
+<a id="chap1"></a>
+## 1. Installation
 
 First of all you need to download the [story template](https://github.com/MadRoutine/Nightswim-Story-Template). Put it somewhere on your hard drive and rename it with your project's title.
 
@@ -44,7 +45,8 @@ your story's content and game logic. Additionally there will be scene files (to
 be put in *story/scenes/*). Other content goes in their respective folders: *story/audio/*,
 *story/images/* and *story/video/*.
 
-## 2. Core concepts {#chap2}
+<a id="chap2"></a>
+## 2. Core concepts
 Before we start building a story there are two important concepts that need to
 be understood: *Conditions* and *Consequences*. You'll see these two throughout
 the documentation, and you will use them frequently when defining your story's
@@ -59,7 +61,8 @@ Consequences describe the changes that occur when conditions are met and an
 action is performed. You can define multiple consequences per action.
 [See the reference guide of different Consequence-types.](https://github.com/MadRoutine/Nightswim-Docs/blob/master/Reference%20Guide%20-%20Consequences.md)
 
-## 3. Adding Locations {#chap3}
+<a id="chap3"></a>
+## 3. Adding Locations
 The easiest way to start your story is by adding locations in
 *story/locations.json*. Open the Nightswim Editor, click 'Open file', browse to your
 story folder's location and open it. At the start there's only two brackets.
@@ -114,13 +117,21 @@ south->forest]]`
 
 Time to see what we did so far! Click the **Test Story** button on the top right to see what the story looks like so far, or open the index.html in Firefox. You should be able to travel back and forth from forestNorth to forestSouth.
 
-## 4. Adding Objects {#chap4}
-## 5. Adding Characters {#chap5}
-## 6. Adding Scenes {#chap6}
-## 7. Adding Cutscenes {#chap7}
-## 8. Changing Story Settings {#chap8}
-## 9. Publishing Your Story {#chap9}
-## 10. More info {#chap10}
+<a id="chap4"></a>
+## 4. Adding Objects
+Coming soon!
+<a id="chap5"></a>
+## 5. Adding Characters
+<a id="chap6"></a>
+## 6. Adding Scenes
+<a id="chap7"></a>
+## 7. Adding Cutscenes
+<a id="chap8"></a>
+## 8. Changing Story Settings
+<a id="chap9"></a>
+## 9. Publishing Your Story
+<a id="chap10"></a>
+## 10. More info
 - Flow of events when player enters a location
 - Some other tips
 - Links to documentation and references
