@@ -41,9 +41,14 @@ Notice the curly brackets, and how the properties are defined between double quo
 }
 ```
 
-The data can be of many different types: a number (*integer*), text (*string*), true or false (*boolean*), or they can contain yet another array or object! This way you can nest objects into objects into objects, etc. Note that when it comes to data, only text will be put in double quotes (while property-names are *always* put in double quotes)
+The data can be of many different types: a number (*integer*), text (*string*),
+true or false (*boolean*), or they can contain yet another array or object! This
+way you can nest objects into objects into objects, etc. Note that when it comes
+to data, only text and property-names will be put in double quotes.
 
-Important to remember is that **text needs to be put on one line**. You cannot use enter and spread your text over multiple lines. Just toggle the *Word Wrap* function in the editor when your lines get too long.
+Important to remember is that **text needs to be put on one line**. You cannot
+press Enter and spread your text over multiple lines. Just toggle the *Word
+Wrap* function in the editor when your lines get too long.
 
 One last super important thing which I briefly mentioned at the top: **every JSON-file can only hold ONE array or object on the top level**. Inside this array or object you can nest as many other objects or arrays as you like, but on the top level there can be only one.
 
@@ -122,7 +127,7 @@ You can also be more specific:
 Same goes for classes:
 `p.introduction { font-size: 0.8em }` will style every `<p>`-tag with the introduction class.
 
-You can also choose to only style nested element by using a space and then adding another element:
+You can also choose to only style nested elements by using a space and then adding another element:
 
 `p .introduction { font-size: 0.8em }` will style every tag inside the `<p>`-tag that has the introduction class.
 
