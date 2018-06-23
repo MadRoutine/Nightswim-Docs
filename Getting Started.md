@@ -92,9 +92,7 @@ has a *sectionHTML* property, and this is where you'll write the stuff that
 will be displayed when a player enters the location. You can add multiple
 sections, but let's stick with one for now. Enter:
 
-`<p>Such a beautiful forest</p>`
-
-`[[Go north->forestNorth]]`
+`"sectionHTML": "<p>Such a beautiful forest</p>[[Go north->forestNorth]]"`
 
 What on earth means [[Go north->forestNorth]]? This is a *Location Macro*. It will
 turn into a button that displays the text before the arrow, 'Go north'. Clicking the button
