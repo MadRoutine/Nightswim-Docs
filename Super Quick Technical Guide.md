@@ -93,7 +93,9 @@ As you can see: tags can be *nested* inside one another. Tags can have attribute
 
 `<p id="first_paragraph" class="introduction">First paragraph, will contain introduction text</p>`
 
-An id is unique and can only be used for one tag, while you can give multiple tags the same class.
+An id is unique and can only be used for one tag, however, classes can be reused as often as you want.
+
+One more: the `<q>` tag can be used for quotations.
 
 To learn more about HTML and HTML tags: [see W3Schools.com](https://www.w3schools.com/html/default.asp).
 
